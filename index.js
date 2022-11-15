@@ -10,6 +10,7 @@ let modosexo = document.getElementsByClassName("modosexo")[0];
 let triste = document.getElementById("triste");
 let video = document.getElementsByClassName("video")[0];
 let h1 = document.getElementById("h1");
+let body = document.getElementById("body")
 
 
 btnno.addEventListener("mouseenter", function(e) { moverPosicionRandom(e.target) 
@@ -37,4 +38,5 @@ btnsi.addEventListener("click", function(e) {
     btnsi.style.display = "none"
     video.style.display = "none"
     h1.style.display = "none"
+    body.style.background = "red"
 })
