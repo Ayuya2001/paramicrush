@@ -1,0 +1,47 @@
+body {
+    background: lightgray;
+}
+
+.modosexo {
+    text-align: center;
+    color: red;
+    display: none;
+}
+
+#triste {
+    display: none;
+    text-align: center;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+}
+
+#btn_si {
+    margin-right: .9rem;
+    font-size: xx-large;
+    background-color: lightblue;
+    border: 1px blanchedalmond solid;
+    border-radius: 5px;
+    padding: .7rem;
+}
+
+#btn_no {
+    height: fit-content;
+    align-self: center;
+    padding: .5rem 0 .5rem 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
