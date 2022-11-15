@@ -27,7 +27,6 @@ btnno.addEventListener("mouseenter", function(e) { moverPosicionRandom(e.target)
     }
 });
 
-
 btnsi.addEventListener("click", function(e) {
     alert("Sabía que dirías que SÍ. Casemonos ya y tengamos hijos. TE AMO!!!! ❤️");
 
